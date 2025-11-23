@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowDown, ArrowRight, Phone } from "lucide-react";
 
 export default function Hero() {
     return (
@@ -20,26 +20,19 @@ export default function Hero() {
                     </p>
                 </div>
 
-                <h1 className="text-5xl md:text-7xl font-bold leading-tight text-balance">
-                    <span className="gradient-text">Immersive Digital</span>
-                    <br />
-                    <span className="text-foreground">Experiences</span>
+                <h1 className="text-5xl md:text-6xl font-bold leading-tight text-balance">
+                    <span className="gradient-text">
+                        We Build Products That Move Fast and Scale Big
+                    </span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed">
-                    We craft cutting-edge web and mobile applications that
-                    combine stunning design with powerful functionality. From
-                    concept to launch, we bring your vision to life.
+                    We engineer scalable web and mobile applications with clean
+                    architecture, seamless user experiences, and
+                    enterprise-grade performance. From idea to development to
+                    deployment, we transform concepts into powerful software
+                    solutions.
                 </p>
-
-                <div className=" flex justify-center items-center hover:cursor-pointer">
-                    <div className="hover:cursor-pointer flex justify-center items-center bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-3 gap-3">
-                        <Phone className="" size={20} />
-                        <button className="text-base  hover:cursor-pointer">
-                            Book a Call
-                        </button>
-                    </div>
-                </div>
             </div>
         </section>
     );
